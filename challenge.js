@@ -51,12 +51,21 @@ do {
 
 
 
+
+
+// function multiply(num1, num2) {
+//   let result = num1 * num2;
+//   return result;
+// }
+
+// let sum = multiply (5,6)
+// console.log(sum)
+
+// write a simple program that calculates your salar and tax if salary is 500 and tax is 20
+//what is the take home salary
 */
 
-function multiply(num1, num2) {
-  let result = num1 * num2;
-  return result;
-}
-
-let sum = multiply (5,6)
-console.log(sum)
+let salary = 500;
+let tax = 0.2;
+let takehomesalary = salary - (salary * tax) ;
+console.log("your take home salary is " + takehomesalary)
