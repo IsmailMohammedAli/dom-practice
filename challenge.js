@@ -1,14 +1,19 @@
+/*
+// Write a for loop that prints your name 20 times.
+
 for(let i = 0; i < 20; i++) {
     console.log("Ismail")
 }
 
+// Write a while that prints your surname 20 times.
 
+// let i = 0;
+// while (i < 20) {
+//     console.log("Ali");
+//     i++;
+// }
 
-let i = 0;
-while (i < 20) {
-    console.log("Ali");
-    i++;
-}
+// write if/else if, chained code to check what day of the day it is.
 
 let today = "tuesday"
 if (today == "monday") {
@@ -19,6 +24,7 @@ console.log("it is coding day")
     console.log("ask me personally which day")
  }
 
+ // convert the if/else if to switch
 switch (today) {
     case "monday":
         console.log("it is coding day, from switch")
@@ -32,6 +38,25 @@ switch (today) {
         break;
 }
 
+// convert the while loop to a do ... while loop whose body runs once
+
+let i = 0 ;
+do {
+    console.log("Ismail");
+    i++;
+} while (false);
 
 
 
+
+
+
+*/
+
+function multiply(num1, num2) {
+  let result = num1 * num2;
+  return result;
+}
+
+let sum = multiply (5,6)
+console.log(sum)
